@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Hammersmith One';
+}
+header {
+	background-color: #fae487;
+	color: black;
+	padding: 20px;
+	text-align: center;
+	font-size: 3em;
+	margin-bottom: 20px;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+.about-me {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.about-me img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+.about-me p {
+	font-size: 1.2em;
+	line-height: 1.5;
+}
+.social-links {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.social-links a {
+	display: inline-block;
+	margin-right: 20px;
+}
+.social-links a img {
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+	border-radius: 50%;
+}
